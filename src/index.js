@@ -3,7 +3,6 @@ const { startStandaloneServer } = require('@apollo/server/standalone');
 
 async function getPoke() {
     const pokemons = await fetch("https://pokeapi.co/api/v2/pokemon");
-  
 }   
 
 
